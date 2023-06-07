@@ -1,0 +1,953 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color:white;
+    position: relative;
+    
+}
+header >  video{
+    height:100%;
+    width:100%;
+}
+header > .header-div{
+    height:95%;
+    width:1375px;
+    /* border:1px solid white; */
+    margin:0 auto;
+    position: absolute;
+    top:0px;
+    left:70px;
+}
+.header-div > .upper{
+    height:10%;
+    width:100%;
+    /* background-color: black; */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.upper > .list1{
+    list-style:none;
+    color:white;
+    font-size:17px;
+    font-weight:700;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    gap:100px;
+}
+.list1 > li{
+    padding:5px 5px;
+    cursor:pointer;
+    transition: all 1s;
+}
+.list1 > li:hover{
+    border-bottom:1px solid white;
+}
+.header-div > .lower{
+    height:89%;
+    width:100%;
+    /* border:1px solid aquamarine; */
+}
+.lower > img{
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    top: 210px;
+    left: 560px;
+}
+.lower > .text1{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size:69px;
+    word-spacing:12px;
+    font-weight:700;
+    position:absolute;
+    top:500px;
+    left:65px;
+    transform:scale(1.1);
+    line-height:75px;
+}
+.lower > .line1{
+    height: 2px;
+    width: 220px;
+    background-color:white;
+    position: absolute;
+    top: 730px;
+}
+.lower > .circle1{
+    height:80px;
+    width:80px;
+    background-color: white;
+    border-radius:50%;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:692px;
+    left:230px;
+    cursor: pointer;
+}
+.circle1 > i{
+    font-size:30px;
+    color:rgba(30, 26, 26, 0.938);
+}
+.lower > .text2{
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 721px;
+    left: 335px;
+}
+
+
+
+/* discover area */
+
+
+
+
+.discover{
+    background-color:#e6e6e1;
+}
+.discover > .discover-div{
+    height:450px;
+    max-width:1375px;
+    background-color:#e6e6e1;
+    margin:0 auto;
+}
+.discover-div > .content-div1{
+    height:100%;
+    width:100%;
+    /* border:1px solid white; */
+    display:flex;
+}
+.content-div1 > .left1{
+    height:100%;
+    width:50%;
+    /* border:1px solid pink; */
+    position: relative;
+}
+.left1 > .text3{
+    font-family: 'Dancing Script', cursive;
+    font-size:60px;
+    color:black;
+    text-align: center;
+    position: absolute;
+    top:150px;
+    left:20px;
+}
+.content-div1 > .right1{
+    height:100%;
+    width:50%;
+    /* border:1px solid blue; */
+    position: relative;
+}
+.right1 > .text4{
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    position: absolute;
+    color:#252424;
+    top:150px;
+    left:50px;
+    line-height:30px;
+}
+
+
+
+/* image area */
+
+
+
+.image{
+    background-color:#e6e6e1;
+}
+.image > .image-div{
+    height:500px;
+    max-width:1375px;
+    background-color:#e6e6e1;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.image-div > .left2{
+    height:100%;
+    width:48%;
+    /* border:1px solid black; */
+    position: absolute;
+    left:0px;
+    overflow: hidden;
+}
+.left2 > img{
+    height: 100%;
+    width:100%;
+    transition: all 1s;
+}
+.left2 > img:hover{
+    transform:scale(1.1);
+}
+.image-div > .right2{
+    height:100%;
+    width:48%;
+    /* border:1px solid white; */
+    position: absolute;
+    right:0px;
+    overflow:hidden;
+}
+.right2 > img{
+    height: 100%;
+    width:100%;
+    transition: all 1s;
+}
+.right2 > img:hover{
+    transform:scale(1.1);
+}
+.left2 > .arrow{
+    height:100px;
+    width:150px;
+    background-color: white;
+    position: absolute;
+    top:400px;
+    left:510px;
+    display: flex;
+}
+.arrow > .le{
+    height:100%;
+    width:50%;
+    /* border:1px solid black; */
+    padding:40px 30px;
+    transition: all 1s;
+}
+.arrow > .le:hover{
+    background-color: #e6e6e1;
+}
+.arrow > .re{
+    height:100%;
+    width:50%;
+    /* border:1px solid gray; */
+    padding:40px 30px;
+    transition: all 1s;
+}
+.arrow > .re:hover{
+    background-color: #e6e6e1;
+}
+
+
+
+/* points area */
+
+
+
+.points{
+    background-color:#e6e6e1;
+}
+.points > .points-div{
+    height:1000px;
+    max-width:1375px;
+    background-color:#e6e6e1;
+    margin:0 auto;
+    position: relative;
+}
+.points-div > .heading1{
+    height:20%;
+    width:100%;
+    /* border:1px solid black; */
+    position: absolute;
+    top:100px;
+}
+.heading1 > .text5{
+    color:black;
+    font-family: 'Dancing Script', cursive;
+    font-size:55px;
+    transform: scale(1.5);
+    position: absolute;
+    left:300px;
+    top:35px;   
+}
+.points-div > .content-div2{
+    height:65%;
+    width:100%;
+    /* border:1px solid black; */
+    position: absolute;
+    top:330px;
+    display:flex;
+}
+.content-div2 > .le2{
+    height:100%;
+    width:45%;
+    /* border:1px solid white; */
+}
+.le2 > .list2{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    padding:10px 10px;
+    position: absolute;
+    top:25px;
+}
+.list2 > li{
+    padding:30px 10px;
+}
+.list2 > li > a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.list2  >li > a >span{
+    font-size:38px;
+    transition: all 1s;
+    margin-left:15px;
+}
+.list2 > li > a > span:hover{
+    color:#bfbfbb;
+}
+
+.le2 > .list3{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    padding:10px 10px;
+    position: absolute;
+    top:25px;
+    left:350px;
+}
+.list3 > li{
+    padding:25px 10px;
+}
+.list3 > li > a{
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.list3 > li > a >span{
+    font-size:38px;
+    transition: all 1s;
+    margin-left:15px;
+}
+.list3 > li > a >span:hover{
+    color:#bfbfbb;
+}
+
+.content-div2 > .re2{
+    height:80%;
+    width:50%;
+    /* border:1px solid gray; */
+    margin:65px auto;
+} 
+.re2 > img{
+    height:100%;
+    width:100%;
+    transition: all 1s;
+}
+.re2 > img:hover{
+    border-radius:50px 0px;
+}
+
+
+
+
+/* slider area */
+
+
+
+
+
+.slider{
+    background-color:white;
+}
+.slider > .slider-div{
+    height:1100px;
+    max-width:1375px;
+    background-color:white;
+    margin:0 auto;
+    position: relative;
+}
+.slider-div > .heading2{
+    height:22%;
+    width:40%;
+    /* border:1px solid black; */
+}
+.heading2 > .text6{
+    color:#252424;
+    font-family: 'Dancing Script', cursive;
+    font-size:100px;
+    text-align: center;
+}
+.slider-div > .image1{
+    height:55%;
+    width: 25%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 200px;
+    background-image: url('stove.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.slider-div > .circle2{
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:250px;
+    left:400px;
+    font-size:30px;
+    cursor: pointer;
+}
+.slider-div > .circle3{
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:370px;
+    left:400px;
+    font-size:30px;
+    cursor: pointer;
+}
+.slider-div > .content-div3{
+    height: 24%;
+    width: 50%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 125px;
+    left: 688px;
+}
+.content-div3 > .text7{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    top:55px;
+    transform: scale(1.2);
+}
+.slider-div > .image2{
+    height: 60%;
+    width: 55.2%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 303px;
+    left: 617px;
+    background-image: url('meeting.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-div > .no{
+   position: absolute;
+   top: 635px;
+    left: 270px;
+    font-size: 260px;
+    color:#e6e6e1;
+    font-family: sans-serif;
+}
+.slider-div > .no2{
+    position: absolute;
+    top:985px;
+    font-size:90px;
+    font-family: sans-serif;
+}
+.slider-div > .line2{
+    height: 2px;
+    width: 1119px;
+    background-color:#e6e6e1;
+    position: absolute;
+    top: 1035px;
+    left: 125px;
+}
+.slider-div > .no3{
+    position: absolute;
+    top:985px;
+    left:1270px;
+    font-size:90px;
+    font-family: sans-serif;
+}
+
+
+
+
+/* per-kitchen area */
+
+
+
+
+.per-kitchen{
+    background-color:#1d1d1d;
+}
+.per-kitchen > .per-kitchen-div{
+    height:780px;
+    max-width:1375px;
+    background-color:#1d1d1d;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.per-kitchen-div > .image3{
+    height:85%;
+    width:70%;
+    /* border:1px solid white; */
+    background-image:url('door.webp');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.per-kitchen-div > .text8{
+    font-size:85px;
+    color: white;
+    position: absolute;
+    top: 160px;
+    text-align: center; 
+    font-family: 'Dancing Script' , cursive;
+}
+.per-kitchen-div > button{
+    height:50px;
+    width:250px;
+    border:1px solid white;
+    border-radius:25px;
+    background-color: transparent;
+    color:white;
+    cursor:pointer;
+    font-family:sans-serif;
+    font-weight: 700;
+    position:absolute;
+    top:620px;
+    left:550px;
+    transition:all 1s;
+}
+.per-kitchen-div > button:hover{
+    background-color: white;
+    color:#252424;
+}
+
+
+
+/* casestudy area */
+
+
+
+.case-study{
+    background-color:white;
+}
+.case-study > .case-study-div{
+    height:950px;
+    max-width:1375px;
+    background-color:white;
+    margin:0 auto;
+    position:relative;
+}
+.case-study-div > h3{
+    color:#252424;
+    font-family:'Dancing Script' , cursive;
+    font-size: 70px;
+    position: absolute;
+    top:150px;
+    left:550px;
+}
+.case-study-div > h4{
+    color:#252424;
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+    font-weight: 100;
+    position: absolute;
+    top: 450px;
+    left:55px;
+    text-align: center;
+    transition: all 1s;
+    cursor: pointer;
+}
+.case-study-div > h4:hover{
+    color:#e6e6e1;
+}
+.case-study-div > .circle4{
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:610px;
+    left:185px;
+    font-size:30px;
+    cursor: pointer;
+}
+.case-study-div > .image4{
+    height:650px;
+    width:30%;
+    /* border:1px solid black; */
+    position: absolute;
+    top: 280px;
+    left:498px;
+    overflow: hidden;
+}
+.image4 > img{
+    height:100%;
+    width:100%;
+    transition: all 1s;
+}
+.image4 > img:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.case-study-div > h5{
+    color: #252424;
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+    position: absolute;
+    font-weight: 100;
+    top: 455px;
+    left: 999px;
+    text-align: center; 
+    transition: all 1s;
+    cursor: pointer;
+}
+.case-study-div > h5:hover{
+    color:#e6e6e1;
+}
+.case-study-div > .circle5{
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:610px;
+    left:1080px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+
+
+
+/* number arae */
+
+
+
+
+.numb{
+    background-color:white;
+}
+.numb > .no4{
+    height:350px;
+    max-width:1375px;
+    background-color:white;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.no4 > .text9{
+    color:#bfbfbb;
+    font-size:180px;
+    font-family: sans-serif;
+    position: absolute;
+    left:610px;
+}
+
+
+
+/* blog area */
+
+
+
+
+.blog{
+    background-color:white;
+}
+.blog > .blog-div{
+    height:650px;
+    max-width:1375px;
+    background-color:white;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-div > .first{
+    height:520px;
+    width:32%;
+    /* border:1px solid white; */
+     overflow: hidden;
+}
+.first > img{
+    height:100%;
+    width:100%;
+    transition: all 1s;
+}
+.first > img:hover{
+    transform: scale(1.1);
+}
+.blog-div > .second{
+    height:520px;
+    width:32%;
+    /* border:1px solid white; */
+    overflow: hidden;
+}
+.second > img{
+    height:100%;
+    width:100%;
+    transition: all 1s;
+}
+.second > img:hover{
+    transform: scale(1.1);
+}
+.blog-div > .third{
+    height:520px;
+    width:32%;
+    /* border:1px solid white; */
+    overflow: hidden;
+}
+.third > img{
+    height:100%;
+    width:100%;
+    transition: all 1s;
+}
+.third > img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* contact area */
+
+
+
+
+.contact{
+    background-color:#e6e6e1;
+}
+.contact > .contact-div{
+    height:600px;
+    max-width:1375px;
+    background-color:#e6e6e1;
+    margin:0 auto;
+    position: relative;
+}
+.contact-div > h3{
+    color:#252424;
+    font-family:'Dancing Script' , cursive;
+    font-size:100px;
+}
+.contact-div > form{
+    height:70%;
+    width:100%;
+    /* border:1px solid black; */
+    position: absolute;
+    top:150px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing:2px;
+}
+form > .fname{
+    font-size:20px;
+    color:#1d1d1d;
+}
+form > .input1{
+    height:40px;
+    width:350px;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid #252424;
+}
+form > .sname{
+    font-size:20px;
+    color:#1d1d1d;
+    position: absolute;
+    top:0px;
+    left:500px;
+}
+form > .input2{
+    height:40px;
+    width:350px;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid #252424;
+    position: absolute;
+    top:55px;
+    left:500px;
+}
+form > .em{
+    font-size:20px;
+    color:#1d1d1d;
+}
+form > .input3{
+    height:40px;
+    width:350px;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid #252424;   
+}
+form > .tel{
+    font-size:20px;
+    color:#1d1d1d;
+    position: absolute;
+    top:120px;
+    left:500px;
+}
+form > .input4{
+    height:40px;
+    width:350px;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid #252424; 
+    position: absolute;
+    top:170px;
+    left:500px;  
+}
+form > .msg{
+    font-size:20px;
+    color:#1d1d1d;
+    position: absolute;
+    top:50px;
+    left:1000px;
+}
+form > textarea{
+    height:100px;
+    width:350px;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid #252424; 
+    position: absolute;
+    top:100px;
+    left:1000px;  
+    color:#757575;
+}
+form > .policy{
+    color:#757575;
+    position:absolute;
+    top:290px;
+    left:425px;
+}
+form > #btn{
+    height:40px;
+    width:200px;
+    border-radius:20px;
+    border:none;
+    cursor: pointer;
+    transition: all 1s;
+    position: absolute;
+    top:350px;
+    left:570px;
+}
+form > #btn:hover{
+    color:white;
+    background-color:black;
+}
+
+
+
+/* footer area */
+
+
+
+
+footer{
+    background-color:#e6e6e1;
+}
+footer > .footer-div{
+    height:900px;
+    max-width:1375px;
+    background-color:#e6e6e1;
+    margin:0 auto;
+    position: relative;
+}
+.footer-div > .list4{
+    list-style:none;
+    font-size:50px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+}
+.list4 > li{
+    padding:5px 10px;
+}
+.list4 > li > a{
+    color:#1d1d1d;
+    text-decoration: none;
+    transition: all 1s;
+}
+.list4 > li > a:hover{
+    color:#bfbfbb;
+}
+.footer-div > .list5{
+    list-style:none;
+    font-size:16px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    position: absolute;
+    top:540px;
+    left: 525px;
+    color:#1d1d1d;
+    font-weight: 700;
+}
+.list5 > li{
+    padding:10px 10px;
+    cursor:pointer;
+    transition:all 1s;
+}
+.list5 > li:hover{
+    color:#bfbfbb;
+}
+.footer-div > .list6{
+    list-style: none;
+    color:#1d1d1d;
+    font-size:40px;
+    display: flex;
+    gap:70px;
+    position: absolute;
+    top:700px;
+    left:525px;
+}
+.list6 > li{
+    transition:all 1s;
+    cursor: pointer;
+    padding:5px 2px;
+}
+.list6 > li:hover{
+    color:#bfbfbb;
+}
+.footer-div > .text9{
+    color:#1d1d1d;
+    font-family:'Poppins', sans-serif;
+    position: absolute;
+    top:810px;
+    left:300px;
+    transition: all 1s;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background:#e6e6e1;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background:#252424;
+    border-radius:15px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
